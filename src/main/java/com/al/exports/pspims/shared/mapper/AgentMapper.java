@@ -1,4 +1,4 @@
-package com.al.exports.pspims.shared.mappers;
+package com.al.exports.pspims.shared.mapper;
 
 import com.al.exports.pspims.domain.Agent;
 import com.al.exports.pspims.shared.model.AgentDTO;
