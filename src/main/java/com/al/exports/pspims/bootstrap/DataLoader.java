@@ -99,9 +99,9 @@ public class DataLoader implements CommandLineRunner {
 
     private void loadAgentData() {
         Agent newAgent = Agent.builder()
-                .firstName("Kaveen")
-                .lastName("Prabodhya")
-                .username("kaveen")
+                .firstName("Name1")
+                .lastName("Name2")
+                .username("agent")
                 .password("password")
                 .agentDepartment(AgentDepartmentTypeEnum.LOGISTICS)
                 .address("75 A, Colombo 01")
@@ -110,9 +110,9 @@ public class DataLoader implements CommandLineRunner {
                 .build();
 
         Agent newAdmin = Agent.builder()
-                .firstName("thivanka")
-                .lastName("liyanage")
-                .username("thivanka")
+                .firstName("Name1")
+                .lastName("Name2")
+                .username("admin")
                 .password("password")
                 .role(Role.ROLE_ADMIN)
                 .agentDepartment(AgentDepartmentTypeEnum.LOGISTICS)
